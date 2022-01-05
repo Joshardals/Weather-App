@@ -16,7 +16,7 @@ const weather = () => {
       .get(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&` +
           new URLSearchParams({
-            appid: process.env.NEXT_PUBLIC_OPEN_WEATHER_API_KEY,
+            appid: "803e0ea53ddf40dcf9258a3332dfae24",
           })
       )
       .then((res) => {
